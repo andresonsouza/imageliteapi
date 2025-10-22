@@ -1,13 +1,16 @@
 package com.andresonsouza.imageliteapi;
 
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 @SpringBootApplication
-public class ImageliteapiApplication {
+@EnableJpaAuditing
+public class Startup {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ImageliteapiApplication.class, args);
+		SpringApplication.run(Startup.class, args);
 	}
 
 }
