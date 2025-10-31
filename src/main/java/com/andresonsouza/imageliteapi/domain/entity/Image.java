@@ -1,6 +1,6 @@
 package com.andresonsouza.imageliteapi.domain.entity;
 
-import com.andresonsouza.imageliteapi.domains.enums.ImagesExtension;
+import com.andresonsouza.imageliteapi.domain.enums.ImagesExtension;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

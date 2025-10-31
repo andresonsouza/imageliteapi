@@ -1,4 +1,4 @@
-package com.andresonsouza.imageliteapi.domains.enums;
+package com.andresonsouza.imageliteapi.domain.enums;
 
 public enum ImagesExtension {
     PNG,
